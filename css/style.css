@@ -1,0 +1,20 @@
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    background-color: aqua;
+    text-decoration: line-through;
+    letter-spacing:5px;
+    
+}
+
+div{
+    text-align: center;
+}
+
+
+.kp{
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+    
+}
