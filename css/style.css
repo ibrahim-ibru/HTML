@@ -1,74 +1,112 @@
 *{
     margin: 0%;
-    padding: 0%;
+    padding: 0%
+}
+.p6{
+    position: absolute;
+    display: inline-block;
+    color :white;
+    font-size: 14px;
+    right: 10%;
+    bottom: 25%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+span{
+    color: grey;
+    left: 3%;
+    font-size: 18.5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    top: 2%;
+    position: absolute;
 }
 .parent{
     position: relative;
 }
+img{
+    width: 100%;
 
-ul{
+}
+.p5{
+    position: absolute;
+    color: white;
     display: inline-block;
-    margin: 10px;
+    bottom: 15%;
+    right: 24.2%;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.p7{
+    position: absolute;
+    color: white;
+    display: inline-block;
+    bottom: 15%;
+    right: 9%;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.p4{
+    position: absolute;
+    color: white;
+    display: inline-block;
+    bottom: 25%;
+    right: 26.5%;
+    font-size: 14px;
+}
+.p1{
+    display: inline-block;
+    color: white;
+    font-weight: 1;
+    letter-spacing: 3px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 2%;
+    left: 5.5%;
+    font-size: 18px;
+
+}
+.p3{
+    display: inline-block;
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 66.5%;
+    right: 8%;
+    font-weight: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+u{
+    color: white;
+    position: absolute;
+    bottom: 33%;
+    right: 8%;
+}
+ul{
+    position: absolute;
+    color: white;
+    display: inline-block;
+    top: 20%;
+    right: 8.8%;
+    font-size: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 0;
+}
+.p2{
+    display: inline-block;
+    color: white;
+    font-weight: 1;
+    letter-spacing: 3px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 25%;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    left: 66.3%;
+    font-size: 115px;
 
 }
 li{
-    display: inline-block;
-    margin-left: 20px;
-}
-.cdiv{
-    background-color: black;
-    color: aliceblue;
-    width: 100%;
-    padding: 20px;
-    position: fixed;
-}
-img{
-   
-    width: 100%;
-}
-.para1{
     display: inline;
-    left: 11%;
-    
-    bottom: 65%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 20px;
-    color: white;
-    position: absolute;
-}
-.para2{
-    display: inline;
-    position: absolute;
-    color: white;
-    font-size: 15px;
-    right: 63%;
-    line-height: 20px;
-    left: 10.5%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 14px;
-    top: 60%;
-}
- .para{
-    display: inline;
-    color: white;
-    position: absolute;
-    font-size: 130px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    left: 10%;
-    top: 35%;
-    font-weight: 10;
-}
-.h3{
-    display: inline-block;
-    border: 3px ;
-    padding: 90px 59px;
-    border-radius: 100px  ;
-    background-color: white;
-    position: absolute;
-    font-size: 20px;
-    font-weight: 500;
-    font-family: 'Courier New', Courier, monospace;
-    left: 82%;
-    top:65%;
-    transform: translate(-50%,-50%);
+    letter-spacing: 2px;
+    margin: 17px;
 }
