@@ -4,71 +4,16 @@
 }
 .parent{
     position: relative;
+    background-image: url("/image/istockphoto-172192658-1024x1024\(1\).jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
 }
+.child{
 
-ul{
-    display: inline-block;
-    margin: 10px;
-
 }
-li{
-    display: inline-block;
-    margin-left: 20px;
-}
-.cdiv{
-    background-color: black;
-    color: aliceblue;
-    width: 100%;
-    padding: 20px;
-    position: fixed;
-}
-img{
-   
-    width: 100%;
-}
-.para1{
-    display: inline;
-    left: 11%;
-    
-    bottom: 65%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 20px;
-    color: white;
-    position: absolute;
-}
-.para2{
-    display: inline;
-    position: absolute;
-    color: white;
-    font-size: 15px;
-    right: 63%;
-    line-height: 20px;
-    left: 10.5%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 14px;
-    top: 60%;
-}
- .para{
-    display: inline;
-    color: white;
-    position: absolute;
-    font-size: 130px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    left: 10%;
-    top: 35%;
-    font-weight: 10;
-}
-.h3{
-    display: inline-block;
-    border: 3px ;
-    padding: 90px 59px;
-    border-radius: 100px  ;
-    background-color: white;
-    position: absolute;
-    font-size: 20px;
-    font-weight: 500;
-    font-family: 'Courier New', Courier, monospace;
-    left: 82%;
-    top:65%;
-    transform: translate(-50%,-50%);
+h1{
+    color:white;
 }

@@ -1,0 +1,32 @@
+img{
+    height: 100px;
+    width: 200px;
+}
+.img1{
+    position: absolute;
+    background-color: black;
+    z-index: -1;
+    top: 0%;
+    left: 0%;
+}
+.img2{
+    position: absolute;
+    background-color:red;
+    z-index: 1;
+    top: 3%;
+    left: 3%;
+}
+.img3{
+    position: absolute;
+    background-color: blue;
+    z-index: 2;
+    top: 6%;
+    left: 6%;
+}
+.img4{
+    position: absolute;
+    background-color: green;
+    z-index: 3;
+    top: 9%;
+    left: 9%;
+}
