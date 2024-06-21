@@ -25,6 +25,8 @@ span{
 }
 img{
     width: 100%;
+    height: 100vh;
+    object-fit: cover;
 
 }
 .p5{
@@ -73,6 +75,7 @@ img{
     left: 66.5%;
     right: 8%;
     font-weight: 0px;
+    letter-spacing: 0.5px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 15px;
 }
@@ -81,6 +84,7 @@ u{
     position: absolute;
     bottom: 33%;
     right: 8%;
+
 }
 ul{
     position: absolute;
