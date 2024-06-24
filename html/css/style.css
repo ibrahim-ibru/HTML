@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+/* bg image */
+.bgimg{
+    background-image: url('/images/desktop/image-header.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+}
+/* nav */
+.left{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 5%;
+}
+.nav{
+    color: white;
+    display: flex;
+    background-image: none;
+    background-attachment: fixed;
+    justify-content: space-between;
+}
+ul {
+    padding: 10%;
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+    margin-left: 145%;
+  }
+  button{
+    background-color: white;
+    font-weight: bolder;
+    border: 0px;
+    padding: 17px 30px;
+    border-radius: 40px;
+  }
+  li {
+    list-style: none;
+    margin: 0 20px;
+  }
+  /* heading */
+  .head{
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    letter-spacing: 6px;
+    font-size: 28px;
+  }
+  .hd1{
+    position: absolute;
+    top: 35%;
+    left: 48%;
+    height: 100px;
+  }
+.parent{
+    padding: 0%;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(5,1fr) ;
+    /* grid-gap: 10px; */
+    
+}
+.child0{
+  background-color: white;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  
+  align-items: center;
+}
+.hd2{
+  position: absolute;
+  font-weight: bolder;
+  top: 0%;
+  padding: 25% 20% 10% 20%;
+  font-size: 45px;
+  letter-spacing: 3px;
+}
+.p1{
+  position: absolute;
+  display: flex;
+  padding:32% 18% 20% 20%;
+  font-size: 18px;
+  line-height: 25px;
+}
+.a1{
+  position: absolute;
+  display: flex;
+  top: 75%;
+  left: 20%;
+}
+.child1{
+  background-image: url("/images/desktop/image-transform.jpg");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+/* 2nd */
+.child3{
+  background-color: white;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  
+  align-items: center;
+}
+.hd3{
+  position: absolute;
+  font-weight: bolder;
+  top: 0%;
+  padding: 25% 20% 10% 20%;
+  font-size: 45px;
+  letter-spacing: 3px;
+}
+.p2{
+  position: absolute;
+  display: flex;
+  padding:32% 18% 20% 20%;
+  font-size: 18px;
+  line-height: 25px;
+}
+.a2{
+  position: absolute;
+  display: flex;
+  top: 75%;
+  left: 20%;
+}
+.child2{
+  background-image: url("/images/desktop/image-stand-out.jpg");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+.child4{
+  background-image: url("/images/desktop/image-graphic-design.jpg");
+  height: 100vh;
+  background-position: center;
+  position: relative;
+  background-size: cover;
+}
+.hd4{
+  position: absolute;
+  display: flex;
+  top: 63%;
+  left: 30%;
+}
+.p3{
+    position: absolute;
+    display: flex;
+    top: 75%;
+    
+    padding:0% 20% 20% 20%;
+    font-size: 18px;
+    /* line-height: 25px; */
+  
+}
+.child5{
+  background-image: url("/images/desktop/image-photography.jpg");
+  height: 100vh;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+}
+.hd5{
+  position: absolute;
+  display: flex;
+  top: 63%;
+  left: 30%;
+}
+.p4{
+    position: absolute;
+    display: flex;
+    top: 75%;
+    
+    padding:0% 20% 20% 20%;
+    font-size: 18px;
+    /* line-height: 25px; */
+  
+}
+/* 
+.child
+{
+border:1px solid black;
+background-color: yellow;
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+} */
