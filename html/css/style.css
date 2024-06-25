@@ -4,7 +4,7 @@
 }
 /* bg image */
 .bgimg{
-    background-image: url('/images/desktop/image-header.jpg');
+    background-image: url('/html/images/desktop/image-header.jpg');
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -24,11 +24,11 @@
     justify-content: space-between;
 }
 ul {
-    padding: 10%;
+    padding: 20%;
     display: flex;
     font-size: 20px;
     justify-content: space-between;
-    margin-left: 145%;
+    margin-left: 220%;
   }
   button{
     background-color: white;
