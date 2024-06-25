@@ -33,6 +33,12 @@
     list-style: none;
     margin: 0 20px;
   }
+  .nli:hover{
+    background-color: white;
+    color: skyblue;
+    border-radius: 20px;
+    padding: 5px 5px;
+  }
   /* heading */
   .head{
     position: absolute;
@@ -183,26 +189,26 @@
 }
 .f1{
   background-image: url("/html/images/desktop/image-gallery-milkbottles.jpg");
-  height: 100vh;
+  height: 50vh;
   position: relative;
   background-position: center;
   background-size: cover;
 }
 .f2{
   background-image: url("/html/images/desktop/image-gallery-orange.jpg");
-  height: 100vh;
+  height: 50vh;
   position: relative;
   background-position: center;
   background-size: cover;
 }.f3{
   background-image: url("/html/images/desktop/image-gallery-cone.jpg");
-  height: 100vh;
+  height: 50vh;
   position: relative;
   background-position: center;
   background-size: cover;
 }.f4{
   background-image: url("/html/images/desktop/image-gallery-sugarcubes.jpg");
-  height: 100vh;
+  height: 50vh;
   position: relative;
   background-position: center;
   background-size: cover;
@@ -225,11 +231,19 @@ footer{
   display: flex;
     font-size: 16px;
     text-align: center;
-    padding: 2% 300px;
+    padding: 2% 42%;
     list-style: none;
 }
 .fli{
-  margin-left: 10px;
+  margin-left: 20px;
+}
+.cul{
+  text-align: center;
+}
+.cimg{
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
 }
 /* 
 .child
